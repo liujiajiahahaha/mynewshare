@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <style type="text/css">
+        body{
+
+            background: url("imgs/star.jpg") no-repeat left top ;
+            background-size: cover;
+            color: aliceblue;
+        }
         @keyframes myfirst {
             from {opacity: 0.5}
             to {opacity: 1}
@@ -11,17 +17,22 @@
         img{
             animation: myfirst 5s infinite;
         }
-
+        audio,div{
+            margin-left: 30%;
+            margin-top: 10%;
+        }
 
     </style>
 </head>
 <body>
-<img src ="imgs/star.jpg" width="400px" height="300px"/>
-<h1>七里香</h1>
-<p>窗外的麻雀，在电线杆上多嘴</p>
-<p>你说这一句，很有夏天的感觉</p>
-<p>手中的铅笔，在纸上来来回回</p >
+<!--<img src ="imgs/star.jpg" width=100% height=100% /><br>-->
+<audio src="bgm/myvoice.wav" controls="controls" autoplay="autoplay" > </audio>
+<div><h1>小摩托</h1>
+<p>骑上我心爱的小摩托</p>
+<p>永远都不会堵车......</p>
+<p></p >
 <p > </p >
+</div>
 </body >
 
 </html>
